@@ -105,7 +105,7 @@ The API will be available at http://127.0.0.1:5000/apidocs.
 
 ## Google Colab
 
-If you prefer to run the analysis in Google Colab, a smaller dataset (data_mini.csv) with 20 rows is available for quick testing. You can access the Colab notebook by clicking here.
+If you prefer to run the analysis in Google Colab, a smaller dataset (data_mini.csv) with 20 rows is available for quick testing. You can access the Colab notebook by clicking here (https://colab.research.google.com/drive/1ZKn8wC7gkOv9zz6YgjBxlTKndDLVnMI7?usp=sharing).
 
 > **Note:** When running on Google Colab, use data_mini.csv for faster execution and testing.
 
@@ -172,4 +172,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Acknowledgements
 
 Data provided by Kaggle.
+
 Visualization powered by Matplotlib and Seaborn.
