@@ -1,0 +1,30 @@
+swagger: "2.0"
+info:
+  description: "API untuk membersihkan tweet dari alay dan kata kasar"
+  version: "1.0.0"
+  title: "Hate Speech Cleansing API"
+paths:
+  /clean_text:
+    post:
+      summary: "Membersihkan teks"
+      parameters:
+        - in: formData
+          name: text
+          type: string
+          required: true
+          description: "Teks yang akan dibersihkan"
+      responses:
+        200:
+          description: "Teks setelah dibersihkan"
+  /upload_csv:
+    post:
+      summary: "Membersihkan file CSV"
+      parameters:
+        - in: formData
+          name: file
+          type: file
+          required: true
+          description: "File CSV berisi tweet"
+      responses:
+        200:
+          description: "CSV setelah di-cleansing"
