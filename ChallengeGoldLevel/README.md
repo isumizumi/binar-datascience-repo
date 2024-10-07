@@ -98,7 +98,9 @@ python visualization.py
 python app.py
 ```
 
-The API will be available at http://127.0.0.1:5000.
+The API will be available at http://127.0.0.1:5000/apidocs.
+
+> **Note:** The process will be very long because the dataset used is the original from kaggle (13K rows of data)
 
 
 ## Google Colab
